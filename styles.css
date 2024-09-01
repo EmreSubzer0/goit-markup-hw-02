@@ -46,4 +46,15 @@ button {
     color: #FFFFFF;
     cursor: pointer;
 }
-
+footer {
+    background-color: #2E2F42;
+}
+footer a {
+    text-decoration-line: none;
+}
+footer .studio {
+    color: #FFFFFF;
+}
+footer p {
+    color: #FFFFFF;
+}
