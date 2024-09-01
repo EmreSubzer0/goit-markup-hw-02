@@ -4,6 +4,7 @@ body {
     color: #2E2F42;
 
 }
+
 body li {
     list-style-type: none;
 }
@@ -14,7 +15,35 @@ body li a {
     color: #4D5AE5;
     font-weight: 700;
     font-size: 18px;
+    line-height: 0.3em;
+
 }
 .studio {
     color: #2E2F42;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0.3em;
 }
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.5em;
+    color: #2E2F42;
+}
+.addr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.5em;
+    color: #434455;
+}
+main section h1 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.4em;
+}
+button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
