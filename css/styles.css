@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-    color: #2E2F42;
+
 
 }
 
@@ -52,18 +52,31 @@ footer {
 footer a {
     text-decoration-line: none;
 }
-footer .studio {
+footer .studio, footer p, #Solution{
     color: #FFFFFF;
 }
-footer p {
-    color: #FFFFFF;
-}
+
 .nav:hover,:focus{
     color: #4D5AE5;
 }
 .addr:hover,:focus{
     color: #4D5AE5;
 }
-.web,.studio:hover,:focus{
+.web,.studio:hover, :focus{
     color: #4D5AE5;
+}
+#orderbutton:hover, :focus{
+    color: #404BBF
+}
+.firstsec {
+    background-color: #2E2F42;
+}
+h2, h3{
+    color: #434455;
+}
+p{
+    color: #434455;
+}
+.Teamsec{
+    background-color: #F4F4FD;
 }
