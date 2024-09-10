@@ -1,7 +1,7 @@
 body {
     background-color: #FFFFFF;
     font-family: "Roboto", sans-serif;
-
+    color: #434455;
 
 }
 
@@ -15,42 +15,63 @@ body li a {
     color: #4D5AE5;
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.3em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
 
 }
 .studio {
     color: #2E2F42;
     font-weight: 700;
     font-size: 18px;
-    line-height: 0.3em;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
 }
 .nav {
     font-weight: 500;
     font-size: 16px;
-    line-height: 0.5em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .addr {
     font-weight: 400;
     font-size: 16px;
-    line-height: 0.5em;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 main section h1 {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.4em;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 button {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    justify-content: flex-start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 footer {
     background-color: #2E2F42;
 }
 footer a {
     text-decoration-line: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 footer .studio, footer p, #Solution{
     color: #FFFFFF;
@@ -66,15 +87,33 @@ footer .studio, footer p, #Solution{
     color: #4D5AE5;
 }
 #orderbutton:hover, :focus{
-    color: #404BBF
+    background-color: #404BBF
 }
 .firstsec {
     background-color: #2E2F42;
 }
-h2, h3{
-    color: #434455;
+h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+}
+h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
 }
 p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 .Teamsec{
